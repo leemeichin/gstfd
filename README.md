@@ -2,7 +2,7 @@
 
 ### I shipped one thing. Now I know how you should ship everything.
 
-**GSTFD** is an agent-agnostic anti-skill for turning an idea into the smallest useful thing before somebody opens a planning document.
+**GSTFD** is an agent-agnostic skill for turning an idea into the smallest useful thing before somebody opens a planning document.
 
 It contains no proprietary insight. Your agent already knows how to build software. This gives it permission to stop auditioning for Head of Strategy.
 
@@ -58,7 +58,7 @@ Five laws. One case study. Absolute confidence.
 
 ## Install the mindset. It is one file.
 
-The entire anti-skill lives in [SKILL.md](SKILL.md). It is plain Markdown with a small YAML header. No runtime, dependencies, vendor SDK, or orchestration layer.
+The entire skill lives in [SKILL.md](SKILL.md). It is plain Markdown with a small YAML header. No runtime, dependencies, vendor SDK, or orchestration layer.
 
 For an agent that supports `SKILL.md` skills, put it in that agent's documented skill location inside a folder named `gstfd`. For an agent that reads files, give it the file. For a chat-only agent, paste the contents into the conversation. The name of the model is between you and your accountant.
 
