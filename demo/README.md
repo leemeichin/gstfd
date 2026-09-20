@@ -1,6 +1,6 @@
 # The second success story
 
-A real Codex CLI run using GPT-6 Astra and the unmodified GSTFD skill built the [support operations dashboard](support-ops/) from [this prompt](prompt.txt) and a synthetic ticket CSV on 20 September 2026.
+A real Codex CLI run using GPT-6 Astra and [the GSTFD skill at the time of recording](https://github.com/leemeichin/gstfd/blob/81130e0/SKILL.md) built the [support operations dashboard](support-ops/) from [this prompt](prompt.txt) and a synthetic ticket CSV on 20 September 2026.
 
 The run took **4 minutes 4 seconds**, including its automated checks. It started with only `SKILL.md` and `tickets.csv`; the agent generated the app and tests. The [original terminal recording](build.cast) retains the actual event timings. The [54-second video](gstfd-demo.mp4) shortens idle pauses and omits the repeated final diff, then shows the browser workflow at normal speed. Title cards and the downloaded-CSV viewer were added during editing.
 

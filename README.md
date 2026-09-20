@@ -46,6 +46,8 @@ A lunch picker? I have extensive experience in this category.
 
 The minimum viable product is the smallest version that delivers the promised result. A working button beats a forty-page meditation on buttons. The button must, however, do the thing. We are visionaries with standards.
 
+Do as little as necessary. Sometimes that is a small app. Sometimes it is one changed line. Sometimes the thing already works and you just need to prove it. I claim all three as victories for the system.
+
 ## The five laws I discovered after lunch
 
 1. **Pick the outcome.** Say what the user will be able to do in one sentence. That sentence is the meeting.
@@ -73,9 +75,11 @@ Replace “lunch picker” with your idea. This is the customization layer.
 
 ## What your agent actually does
 
-It takes a quick look at the relevant code, chooses a small complete version, states a sensible assumption if needed, and builds. It checks the result at a depth appropriate to the work, then gives you the thing and the shortest useful explanation.
+It takes a quick look at what is already there, chooses the shortest complete route to your outcome, and does the necessary work. It checks the result at a depth appropriate to the consequences, then gives you the thing and the shortest useful explanation. Once the outcome is satisfied and checked, it stops.
 
 It spends its effort on the result. It does not generate a PRD, a sprint system, a committee of imaginary specialists, or a twelve-stage ceremony unless you asked for one.
+
+If you start bargaining away the thing you asked for, it reaches for the question tool: "Has the requirement changed, or did you stop wanting to get shit the fuck done?" The agent gets the same treatment when it tries to pass off half the job as an MVP. You can change your mind. You will have to briefly endure my conviction.
 
 Your explicit requirements still count. “Simple” describes the implementation, not a creative interpretation of your request.
 
