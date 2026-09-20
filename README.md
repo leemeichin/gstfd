@@ -62,12 +62,47 @@ Five laws. One case study. Absolute confidence.
 
 The entire skill lives in [SKILL.md](SKILL.md). It is plain Markdown with a small YAML header. No runtime, dependencies, vendor SDK, or orchestration layer.
 
-For an agent that supports `SKILL.md` skills, put it in that agent's documented skill location inside a folder named `gstfd`. For an agent that reads files, give it the file. For a chat-only agent, paste the contents into the conversation. The name of the model is between you and your accountant.
+With Node.js installed, run the command for your agent from your project directory. These install into the project; add `-g` to install for your user across projects.
+
+| Agent | Install command |
+| --- | --- |
+| **Codex** | `npx skills add leemeichin/gstfd -a codex` |
+| **Claude Code** | `npx skills add leemeichin/gstfd -a claude-code` |
+| Cursor | `npx skills add leemeichin/gstfd -a cursor` |
+| GitHub Copilot | `npx skills add leemeichin/gstfd -a github-copilot` |
+| Gemini CLI | `npx skills add leemeichin/gstfd -a gemini-cli` |
+| OpenCode | `npx skills add leemeichin/gstfd -a opencode` |
+| Windsurf | `npx skills add leemeichin/gstfd -a windsurf` |
+| Cline | `npx skills add leemeichin/gstfd -a cline` |
+| Roo Code | `npx skills add leemeichin/gstfd -a roo` |
+| Kilo Code | `npx skills add leemeichin/gstfd -a kilo` |
+| Amp | `npx skills add leemeichin/gstfd -a amp` |
+| Droid | `npx skills add leemeichin/gstfd -a droid` |
+| Goose | `npx skills add leemeichin/gstfd -a goose` |
+| Continue | `npx skills add leemeichin/gstfd -a continue` |
+| Kiro CLI | `npx skills add leemeichin/gstfd -a kiro-cli` |
+| Antigravity | `npx skills add leemeichin/gstfd -a antigravity` |
+| Pi | `npx skills add leemeichin/gstfd -a pi` |
+| OpenClaw | `npx skills add leemeichin/gstfd -a openclaw` |
+| Qwen Code | `npx skills add leemeichin/gstfd -a qwen-code` |
+| Trae | `npx skills add leemeichin/gstfd -a trae` |
+| Warp | `npx skills add leemeichin/gstfd -a warp` |
+| Zed | `npx skills add leemeichin/gstfd -a zed` |
+
+Or let the installer help you choose:
+
+```bash
+npx skills add leemeichin/gstfd
+```
+
+More agents and options live in the [skills CLI documentation](https://github.com/vercel-labs/skills#supported-agents). The name of the model is between you and your accountant.
+
+For a manual install, put `SKILL.md` in your agent's skill directory inside a folder named `gstfd`. For an agent that reads files, give it the file. For a chat-only agent, paste the contents into the conversation.
 
 Then ask:
 
 ```text
-Use gstfd from SKILL.md. Build me a lunch picker.
+Use gstfd. Build me a lunch picker.
 Choose the simplest useful MVP and get it working.
 ```
 
