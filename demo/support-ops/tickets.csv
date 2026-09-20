@@ -1,0 +1,13 @@
+ Ticket ID , Subject , Priority , Status , Owner , Created At 
+SUP-101,"Checkout fails, customers charged twice", CRITICAL ,open,Sam,2026-09-18T09:00:00Z
+SUP-102,Password reset email missing,high,open,Alex,2026-09-19T10:30:00Z
+SUP-103,Wrong avatar colour,low,open,Sam,2026-09-15T08:00:00Z
+SUP-104,Search timing out,HIGH,in progress,Sam,2026-09-17T14:00:00Z
+SUP-105,Billing page blank,critical,closed,Alex,2026-09-16T11:00:00Z
+SUP-106,Export missing the last row,medium,open,,2026-09-19T12:00:00Z
+SUP-107,"Import says ""invalid format""",High,open,Alex,2026-09-18T16:00:00Z
+SUP-108,Team invites expire too soon, Medium ,in progress,Sam,2026-09-20T08:00:00Z
+SUP-109,Mobile login broken,critical,open,Alex,2026-09-20T09:00:00Z
+SUP-110,Update company address,low,resolved,,2026-09-18T13:00:00Z
+SUP-111,Notifications duplicated,medium,open,Alex,2026-09-17T10:00:00Z
+SUP-112,Dashboard freezes on large accounts,high,open,,2026-09-20T09:30:00Z

@@ -8,6 +8,16 @@ It contains no proprietary insight. Your agent already knows how to build softwa
 
 > One afternoon. One lunch picker. One complete theory of human achievement.
 
+## One more success. Twice the evidence.
+
+A support operations command centre. CSV imports. Priority queues. Owner filters. Search. Export. Clearly an enterprise transformation programme.
+
+The agent built it and ran its checks in **4 minutes 4 seconds**. I provided a Markdown file and have taken full credit.
+
+https://github.com/user-attachments/assets/2a400faf-d4ab-420f-9043-73ade74d6560
+
+*54-second video of a real Codex run using GPT-6 Astra, followed by the working browser app. Build pauses shortened; browser walkthrough at normal speed. Synthetic ticket data. [Prompt, full recording, and working code](demo/) · [Download the MP4](demo/gstfd-demo.mp4).*
+
 ## My story. Your entire methodology.
 
 I wanted an app that told me where to get lunch.
@@ -72,7 +82,7 @@ Your explicit requirements still count. “Simple” describes the implementatio
 ## Frequently answered questions
 
 **Is this a framework?**  
-It is two Markdown files with the confidence of a framework.
+It is two Markdown files and a victory lap with the confidence of a framework.
 
 **Which agents does it work with?**  
 Ones that can follow text instructions and have the tools for your task. Native skill discovery depends on the agent; reading a file is the universal integration.

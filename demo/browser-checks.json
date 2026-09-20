@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "checks": [
+    "sample counts",
+    "priority and date ordering",
+    "owner filter",
+    "combined search",
+    "visible CSV download",
+    "escaped quotes",
+    "file upload",
+    "CSV re-import",
+    "empty result",
+    "malformed import preserves queue",
+    "no browser errors"
+  ]
+}

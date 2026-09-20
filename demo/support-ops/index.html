@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Support operations · Queue</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="queue.js" defer></script>
+  <script src="sample.js" defer></script>
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <main>
+    <header>
+      <div><p class="eyebrow">SUPPORT OPERATIONS</p><h1>Shift command centre</h1><p class="muted">The open queue, ready for the next shift.</p></div>
+      <span class="local">● Local only</span>
+    </header>
+    <section class="panel import" aria-label="Import tickets">
+      <div><label for="upload">Upload ticket CSV</label><input id="upload" type="file" accept=".csv,text/csv"><p class="hint">Each import replaces the queue. Your file stays in this browser.</p></div>
+      <button id="sample" type="button">Load provided sample</button>
+    </section>
+    <p id="message" role="status" aria-live="polite">Upload a CSV or load the sample to begin.</p>
+    <p id="error" role="alert" hidden></p>
+    <section class="counts" aria-label="Queue counts">
+      <div class="panel"><span>Imported</span><strong id="total">0</strong></div>
+      <div class="panel"><span>Open queue</span><strong id="open">0</strong></div>
+      <div class="panel"><span>Critical / urgent</span><strong id="urgent">0</strong></div>
+      <div class="panel"><span>Unassigned open</span><strong id="unassigned">0</strong></div>
+    </section>
+    <section class="panel queue" aria-labelledby="queue-title">
+      <div class="queue-heading"><div><h2 id="queue-title">Open queue</h2><p class="hint">Priority first, then oldest created date. Closed and resolved excluded.</p></div><button id="export" type="button" disabled>Export visible CSV (0)</button></div>
+      <div class="filters"><div><label for="owner">Owner</label><select id="owner"><option value="*">All owners</option></select></div><div class="search"><label for="search">Search subjects</label><input id="search" type="search" placeholder="Search for a subject…"></div><button id="clear" type="button">Clear filters</button></div>
+      <p id="visible" class="hint" role="status">Showing 0 of 0 open tickets</p>
+      <div class="table-wrap"><table><caption class="sr-only">Filtered open tickets in export order. Creation dates shown in UTC.</caption><thead><tr><th scope="col">Ticket</th><th scope="col">Subject</th><th scope="col">Priority</th><th scope="col">Status</th><th scope="col">Owner</th><th scope="col">Created (UTC)</th></tr></thead><tbody id="rows"></tbody></table></div>
+      <p id="empty" class="empty">Load tickets to see your queue.</p>
+    </section>
+    <footer>Required CSV columns: Ticket ID, Subject, Priority, Status, Owner, Created At.<br>Header spacing and casing are ignored. Counts cover the full import; exports follow the current filters. Reloading clears the data.</footer>
+  </main>
+</body>
+</html>
